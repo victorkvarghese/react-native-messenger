@@ -12,6 +12,7 @@ Facebook Messenger Implementation using react-native.
 * [React Navigation](https://reactnavigation.org/) 
 * [React Native Paper](https://callstack.github.io/react-native-paper/)
 * [React Native Camera](https://github.com/react-native-community/react-native-camera)
+* [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 * [Jest](https://facebook.github.io/jest/)
 * [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
 
