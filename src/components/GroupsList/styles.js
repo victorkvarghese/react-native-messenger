@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         fontSize: 12,
         textAlign: 'center'
     },
-    memebers: {
+    members: {
         color: AppStyles.colors.grey,
         fontSize: 12,
         textAlign: 'center'
