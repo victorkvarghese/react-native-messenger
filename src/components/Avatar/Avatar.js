@@ -35,7 +35,8 @@ export default class Avatar extends Component {
 Avatar.defultProps = {
     enableDot: true,
     large: false,
-    isGroup: false
+    isGroup: false,
+    liveEnabled: true
 };
 
 Avatar.propTypes = {
