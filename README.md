@@ -11,6 +11,7 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 
 * [React Navigation](https://reactnavigation.org/) 
 * [React Native Paper](https://callstack.github.io/react-native-paper/)
+* [Lottie React Native](https://github.com/react-community/lottie-react-native/)
 * [React Native Camera](https://github.com/react-native-community/react-native-camera)
 * [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 * [Jest](https://facebook.github.io/jest/)
@@ -38,7 +39,7 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 7. Enjoy!!!
 
 ## Sample APK
-Download here : [Messenger Sample APK v1.1](https://drive.google.com/file/d/1_vEx80kuPkxReSB5WADj4DE5GKWuRDux/view?usp=sharing)
+Download here : [Messenger Sample APK v1.2](https://drive.google.com/file/d/163Hy6YmXYEgQuAWHGsOsd1E9AATPu1SI/view?usp=sharing) - Updated facebook reactions
 
 ## Screenshots
 
@@ -46,9 +47,9 @@ Active Screen              |  Groups Screen
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/15869386/42648284-15525324-8624-11e8-9f81-a20e202b7124.png)  |  ![](https://user-images.githubusercontent.com/15869386/42648337-39681032-8624-11e8-8fec-a33750d67215.png)
 
-Calls Screen              |  Camera Screen
+Calls Screen              |  Reactions Screen
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/15869386/42648339-3b468e56-8624-11e8-877e-a06b7bf57c4d.png)  |  ![](https://user-images.githubusercontent.com/15869386/42648341-3cd95c26-8624-11e8-9976-6117736922ed.png)
+![](https://user-images.githubusercontent.com/15869386/42648339-3b468e56-8624-11e8-877e-a06b7bf57c4d.png)  |  ![](https://user-images.githubusercontent.com/15869386/43475979-fd16b340-9514-11e8-9388-7b073af4578c.gif)
 
 
 
