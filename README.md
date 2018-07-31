@@ -47,12 +47,12 @@ Active Screen              |  Groups Screen
 :-------------------------:|:-------------------------:
 ![](https://user-images.githubusercontent.com/15869386/42648284-15525324-8624-11e8-9f81-a20e202b7124.png)  |  ![](https://user-images.githubusercontent.com/15869386/42648337-39681032-8624-11e8-8fec-a33750d67215.png)
 
-Calls Screen              |  Reactions Screen
+Calls Screen              |  Camera Screen
 :-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/15869386/42648339-3b468e56-8624-11e8-877e-a06b7bf57c4d.png)  |  ![](https://user-images.githubusercontent.com/15869386/43475979-fd16b340-9514-11e8-9388-7b073af4578c.gif)
+![](https://user-images.githubusercontent.com/15869386/42648339-3b468e56-8624-11e8-877e-a06b7bf57c4d.png)  |  ![](https://user-images.githubusercontent.com/15869386/42648341-3cd95c26-8624-11e8-9976-6117736922ed.png)
 
 
-
+![](https://user-images.githubusercontent.com/15869386/43475979-fd16b340-9514-11e8-9388-7b073af4578c.gif)
 
 
 
