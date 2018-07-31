@@ -3,6 +3,8 @@ import { View } from 'react-native';
 import PropTypes from 'prop-types';
 
 import StatusList from '@components/StatusList';
+import ReactionContainer from '@components/ReactionContainer';
+
 import styles from './styles';
 
 export default class MessagesScreen extends Component {
@@ -15,6 +17,7 @@ export default class MessagesScreen extends Component {
         return (
             <View style={styles.container}>
                 <StatusList />
+                <ReactionContainer />
             </View>
         );
     }
