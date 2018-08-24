@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    compile project(':lottie-react-native')
     compile project(':react-native-camera')
     compile project(':react-native-vector-icons')
     compile fileTree(dir: "libs", include: ["*.jar"])

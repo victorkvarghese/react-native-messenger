@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
-
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/es/integration/react';
 import NavigationStack from '@navigation';
+import configureStore from '@store/configureStore';
+const { persistor, store } = configureStore();
+import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 
 const theme = {
     ...DefaultTheme,
@@ -18,9 +21,13 @@ const theme = {
 export default class Entrypoint extends Component {
     render() {
         return (
-            <PaperProvider theme={theme}>
-                <NavigationStack />
-            </PaperProvider>
+            <Provider store={store}>
+                <PersistGate persistor={persistor}>
+                    <PaperProvider theme={theme}>
+                        <NavigationStack />
+                    </PaperProvider>
+                </PersistGate>
+            </Provider>
         );
     }
 }
