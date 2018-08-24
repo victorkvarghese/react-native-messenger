@@ -9,7 +9,9 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 
 ## Features
 
-* [React Navigation](https://reactnavigation.org/) 
+* [React Navigation](https://reactnavigation.org/)
+* [Redux](https://redux.js.org/)
+* [Redux Saga](https://redux-saga.js.org/)
 * [React Native Paper](https://callstack.github.io/react-native-paper/)
 * [Lottie React Native](https://github.com/react-community/lottie-react-native/)
 * [React Native Camera](https://github.com/react-native-community/react-native-camera)
