@@ -1,11 +1,12 @@
 import { StyleSheet } from 'react-native';
-import Metrics from '@config/metrics';
+import Metrics from 'src/config/metrics';
+import AppStyles from 'src/config/styles';
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: 'column',
-        backgroundColor: 'black'
+        backgroundColor: AppStyles.colors.black
     },
     preview: {
         flex: 1,
@@ -14,7 +15,7 @@ const styles = StyleSheet.create({
     },
     capture: {
         flex: 0,
-        backgroundColor: 'grey',
+        backgroundColor: AppStyles.colors.grey,
         borderRadius: 75,
         padding: 15,
         paddingHorizontal: 20,

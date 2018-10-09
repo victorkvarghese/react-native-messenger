@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
 
-import GroupsList from '@components/GroupsList';
+import GroupsList from 'src/components/GroupsList';
 import styles from './styles';
 
 export default class GroupsScreen extends Component {

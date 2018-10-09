@@ -2,13 +2,13 @@ import React from 'react';
 import { createBottomTabNavigator } from 'react-navigation';
 
 import { HomeTabNavigation } from './HomeTabNavigation';
-import CameraScreen from '@screens/CameraScreen';
-import PeopleScreen from '@screens/PeopleScreen';
-import GamesScreen from '@screens/GamesScreen';
-import PopularScreen from '@screens/PopularScreen';
+import CameraScreen from 'src/screens/CameraScreen';
+import PeopleScreen from 'src/screens/PeopleScreen';
+import GamesScreen from 'src/screens/GamesScreen';
+import PopularScreen from 'src/screens/PopularScreen';
 
-import TabIcon from '@components/TabIcon';
-import AppStyles from '@config/styles';
+import TabIcon from 'src/components/TabIcon';
+import AppStyles from 'src/config/styles';
 
 const HomeTabIcon = ({ tintColor }) => (
     <TabIcon name="home" tintColor={tintColor} />

@@ -4,7 +4,7 @@ import { Text, TouchableRipple } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import CallItem from './CallItem';
-import AppStyles from '@config/styles';
+import AppStyles from 'src/config/styles';
 
 import { users } from '../../assets/fake_data';
 import styles from './styles';

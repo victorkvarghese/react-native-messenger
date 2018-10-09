@@ -12,13 +12,16 @@ const FBStatusBar = props => {
         <View
             style={[
                 styles.statusBar,
-                { backgroundColor: props.backgroundColor }
+                ...(props.backgroundColor && {
+                    backgroundColor: props.backgroundColor
+                })
             ]}
         >
             <StatusBar
+                animated
                 translucent
                 backgroundColor={props.backgroundColor}
-                {...props}
+                barStyle="light-content"
             />
         </View>
     );

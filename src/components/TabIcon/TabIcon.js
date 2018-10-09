@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import EntypoIcon from 'react-native-vector-icons/Entypo';
-import AppStyles from '@config/styles';
+import AppStyles from 'src/config/styles';
 import PropTypes from 'prop-types';
 import styles from './styles';
 

@@ -3,7 +3,7 @@ import { View, Image } from 'react-native';
 import { TouchableRipple, Text } from 'react-native-paper';
 import _ from 'lodash';
 import Avatar from '../Avatar';
-import Images from '@config/images';
+import Images from 'src/config/images';
 import styles from './styles';
 import PropTypes from 'prop-types';
 

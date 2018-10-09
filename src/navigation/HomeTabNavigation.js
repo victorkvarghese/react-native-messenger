@@ -1,12 +1,12 @@
 import { Platform } from 'react-native';
 import { createMaterialTopTabNavigator } from 'react-navigation';
 
-import MessagesScreen from '@screens/MessagesScreen';
-import ActiveScreen from '@screens/ActiveScreen';
-import GroupsScreen from '@screens/GroupsScreen';
-import CallsScreen from '@screens/CallsScreen';
+import MessagesScreen from 'src/screens/MessagesScreen';
+import ActiveScreen from 'src/screens/ActiveScreen';
+import GroupsScreen from 'src/screens/GroupsScreen';
+import CallsScreen from 'src/screens/CallsScreen';
 
-import AppStyles from '@config/styles';
+import AppStyles from 'src/config/styles';
 
 export const HomeTabNavigation = createMaterialTopTabNavigator(
     {

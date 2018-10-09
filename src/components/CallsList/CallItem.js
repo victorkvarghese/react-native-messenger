@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { TouchableRipple, Text } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Avatar from '../Avatar/Avatar';
-import AppStyles from '@config/styles';
+import AppStyles from 'src/config/styles';
 import PropTypes from 'prop-types';
 
 import styles from './styles';

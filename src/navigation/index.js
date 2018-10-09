@@ -1,12 +1,12 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation';
-import SplashScreen from '@screens/SplashScreen';
-import ChatScreen from '@screens/ChatScreen';
-import CameraScreen from '@screens/CameraScreen';
-import SearchScreen from '@screens/SearchScreen';
+import SplashScreen from 'src/screens/SplashScreen';
+import ChatScreen from 'src/screens/ChatScreen';
+import CameraScreen from 'src/screens/CameraScreen';
+import SearchScreen from 'src/screens/SearchScreen';
 
 import { BottomTabNavigation } from './BottomTabNavigation';
-import SearchHeader from '@components/SearchHeader';
+import SearchHeader from 'src/components/SearchHeader';
 
 const SearchStack = createStackNavigator(
     {

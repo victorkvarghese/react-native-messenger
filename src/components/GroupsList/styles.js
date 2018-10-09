@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
-import AppStyles from '@config/styles';
-import Metrics from '@config/metrics';
+import AppStyles from 'src/config/styles';
+import Metrics from 'src/config/metrics';
 
 const styles = StyleSheet.create({
     card: {

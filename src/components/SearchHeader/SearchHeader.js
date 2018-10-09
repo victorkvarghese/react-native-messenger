@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { View, Platform, TouchableOpacity } from 'react-native';
 import { Text } from 'react-native-paper';
-import FBStatusBar from '@components/FBStatusBar';
+import FBStatusBar from 'src/components/FBStatusBar';
 import styles from './styles';
 
-import { Toolbar, ToolbarAction, Searchbar } from 'react-native-paper';
+import { Appbar, Searchbar } from 'react-native-paper';
 
 export default class SearchHeader extends Component {
     state = {
@@ -58,7 +58,7 @@ export default class SearchHeader extends Component {
             >
                 <FBStatusBar backgroundColor="black" barStyle="light-content" />
                 {this.state.isFocused ? (
-                    <Toolbar style={styles.toolbar}>
+                    <Appbar.Header style={styles.toolbar}>
                         <Searchbar
                             ref={input => {
                                 this.searchTextInput = input;
@@ -78,18 +78,18 @@ export default class SearchHeader extends Component {
                             onBlur={this.onBlur}
                             value={this.state.searchQuery}
                         />
-                    </Toolbar>
+                    </Appbar.Header>
                 ) : (
-                    <Toolbar style={styles.toolbar}>
-                        <ToolbarAction icon="search" onPress={this.onPress} />
+                    <Appbar.Header style={styles.toolbar}>
+                        <Appbar.Action icon="search" onPress={this.onPress} />
                         <TouchableOpacity
                             style={styles.btn}
                             onPress={this.onPress}
                         >
                             <Text style={styles.btnText}>Search</Text>
                         </TouchableOpacity>
-                        <ToolbarAction icon="face" onPress={this._onSearch} />
-                    </Toolbar>
+                        <Appbar.Action icon="face" onPress={this._onSearch} />
+                    </Appbar.Header>
                 )}
             </View>
         );
