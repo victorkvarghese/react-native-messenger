@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator,createAppContainer } from 'react-navigation';
 import SplashScreen from 'src/screens/SplashScreen';
 import ChatScreen from 'src/screens/ChatScreen';
 import CameraScreen from 'src/screens/CameraScreen';
@@ -64,4 +64,4 @@ const MessengerApp = createStackNavigator({
     }
 });
 
-export default MessengerApp;
+export default createAppContainer(MessengerApp);

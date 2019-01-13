@@ -12,9 +12,10 @@ const FBStatusBar = props => {
         <View
             style={[
                 styles.statusBar,
-                ...(props.backgroundColor && {
+                {
                     backgroundColor: props.backgroundColor
-                })
+                }
+
             ]}
         >
             <StatusBar
