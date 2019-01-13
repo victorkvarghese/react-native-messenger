@@ -37,15 +37,15 @@ export default class SearchHeader extends Component {
             this.setState({
                 isFocused: false
             });
-            this.props.navigation.goBack();
+            this.props.navigation.pop();
         } else {
             this.onFocus();
         }
     };
 
     render() {
-        const activeScreen = this.props.navigation.state.routes[0].routes[
-            this.props.navigation.state.routes[0].index
+        const activeScreen = this.props.navigation.state.routes[
+            this.props.navigation.state.index
         ].routeName;
 
         return (
