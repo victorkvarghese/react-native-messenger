@@ -41,7 +41,7 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 7. Enjoy!!!
 
 ## Sample APK
-Download here : [Messenger Sample APK v1.2](https://drive.google.com/file/d/163Hy6YmXYEgQuAWHGsOsd1E9AATPu1SI/view?usp=sharing) - Updated facebook reactions
+Download here : [Messenger Sample APK v1.2](https://drive.google.com/file/d/1WoBxeqRcw9sUEmEkk2v6ckL-CoS185Sa/view?usp=sharing) - Updated facebook reactions
 
 ## Screenshots
 
