@@ -30,15 +30,14 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 1. Clone this repo, `git clone https://github.com/victorkvarghese/react-native-messenger.git `
 2. Go to project's root directory, `cd <your project name>`
 3. Run `yarn` or `npm install` to install dependencies
-4. Run `react-native link`
-5. Connect a mobile device to your development machine
-6. Run the test application:
+4. Connect a mobile device to your development machine
+5. Run the test application:
   * On Android:
     * Run `react-native run-android`
   * On iOS:
     * Open `ios/Messenger.xcodeproj` in Xcode
     * Hit `Run` after selecting the desired device
-7. Enjoy!!!
+6. Enjoy!!!
 
 ## Sample APK
 Download here : [Messenger Sample APK v1.2](https://drive.google.com/file/d/1WoBxeqRcw9sUEmEkk2v6ckL-CoS185Sa/view?usp=sharing) - Updated facebook reactions
