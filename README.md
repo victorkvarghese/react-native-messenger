@@ -7,6 +7,13 @@
 
 Facebook Messenger Implementation using react-native. This is a Work in Progress!  
 
+## Build Status
+
+| Platform      | Build Status (Master)  |
+| ------------- |:-------------:|
+| Android       | [![Build status](https://build.appcenter.ms/v0.1/apps/2ba8e70c-2f79-4430-89f4-f032d16003da/branches/master/badge)](https://appcenter.ms) |
+| iOS           | [![Build status](https://build.appcenter.ms/v0.1/apps/c007d029-6181-4e0a-9779-0392250d6a66/branches/master/badge)](https://appcenter.ms)     |
+
 ## Features
 
 * [React Navigation](https://reactnavigation.org/)
