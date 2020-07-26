@@ -10,6 +10,7 @@ Facebook Messenger Implementation using react-native. This is a Work in Progress
 
 ## UPDATE:
 * [Watermelon Messenger](https://github.com/victorkvarghese/WatermelonMessenger)
+* Based on [React Native BoilerPlate](https://github.com/victorkvarghese/react-native-boilerplate)
 
 
 
